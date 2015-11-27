@@ -6,4 +6,4 @@ SET DEBUG=blog:* & npm start
 
 
  启动mongodb    
- 		mongod -dbpath "G:\install\MongoDB\data\blog"
+ 		mongod -dbpath "E:\dbdata\blog"
