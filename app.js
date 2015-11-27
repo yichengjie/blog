@@ -16,11 +16,6 @@ var session = require('express-session') ;
 var MongoStore = require('connect-mongo')(session) ;
 
 
-
-console.info('******************************************') ;
-console.info(session) ;
-console.info('******************************************') ;
-
 var app = express();
 
 
