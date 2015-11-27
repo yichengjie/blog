@@ -7,9 +7,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/',function(req,res,next){
-
-
-
+	//前台提交数据过来，然后处理数据即可
+	console.info("前台传递登录信息过来") ;
+	console.info("-------------------------") ;
+	console.info(req.body) ;
+	console.info("-------------------------") ;
+	res.end('hello world') ;
 }) ;
 
 module.exports = router;
