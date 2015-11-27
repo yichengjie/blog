@@ -5,13 +5,15 @@
     <meta  charset="UTF-8"/>
     <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/dist/app.min.js"></script>
   </head>
   <body>
   		<%- include header %>
 		<div class="row">
 			<%- include left %>
-	        <div class="col-sm-10">
-				<p>这里是主页</p>
+	        <div class="col-sm-10" ng-controller="EditController">
+				    <p>这里是主页</p>
+            <p>My name is : {{data.name}}</p>
 	        </div>
 		</div>
   </body>
