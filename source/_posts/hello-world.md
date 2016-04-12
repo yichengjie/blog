@@ -36,3 +36,9 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### 刚开始时项目也deploy成功了，但是一直无法访问，执行下面得命令
+
+```bash
+hexo clean&&hexo g&&hexo d
+```
