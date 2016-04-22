@@ -5,7 +5,7 @@ tags:
 comments: true
 ---
 + angular,backbone
-+ underscore ,moment.js
++ underscore ,moment.js,velocity.js(animation),createjs(canvas)
 + seajs,spm,gulp
 + bootstrap, 阿里字体[iconfont](http://www.iconfont.cn "iconfont")
 + less编译工具 koala
