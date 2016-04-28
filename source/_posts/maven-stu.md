@@ -21,7 +21,9 @@ pom.xml右键 run maven build --> Goals `jetty:run`
 这时可能会报一个jetty指令的错误，需要去修改maven的主配置文件(maven安装目录conf/setting.xml)
 		<pluginGroups>
 			<pluginGroup>org.mortbay.jetty</pluginGroup>
+			<!-- 这个是tomcat的配置
 			<pluginGroup>org.apache.tomcat.maven</pluginGroup>
+			-->
 		    <!-- pluginGroup
 		     | Specifies a further group identifier to use for plugin lookup.
 		    <pluginGroup>com.your.plugins</pluginGroup>
