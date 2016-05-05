@@ -43,3 +43,6 @@ pom.xml右键 run maven build --> Goals `jetty:run`
 	在执行mvn eclipse:eclipse命令之前一定要先存在一个含有pom.xml文件的工程，否则
 mvn eclipse:eclipse命令会报错，大致的错误提示信息就是要求有一个pom.xml文件的工程
 `mvn eclipse:eclipse`  `mvn idea:idea`
+
++ maven配置文件(1)maven安装目录下conf/setting.xml
+  (2)${user.dir} /.m2/settings.xml
